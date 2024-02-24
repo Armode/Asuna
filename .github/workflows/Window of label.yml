@@ -5,15 +5,15 @@
 # file with configuration.  For more information, see:
 # https://github.com/actions/labeler
 
-name: SAOLabeler
-on: [Asuna.api]
+name: Invett
+on: Dart create
 
 jobs:
-  label: Asuna
+  label: 
 
-    runs-on: android_ANY
+    runs-on: Dart
 
     steps:
-    - uses: actions@Asunaapu
-      with: Android A/Asuna
+    - uses: test
+      with: format
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
